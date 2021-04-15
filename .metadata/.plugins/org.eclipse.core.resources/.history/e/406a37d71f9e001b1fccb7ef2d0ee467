@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public class Rectangle implements Shape {
+
+	@Override
+	public void draw() {
+		System.out.println("Draw Rectangle");
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

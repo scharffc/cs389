@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public abstract class ShapeDecorator {
+
+}

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public abstract class ShapeDecorator implements Shape {
+	
+	protected Shape decoratedShape;
+	
+	public ShapeDecorator(Shape newShape){
+		decoratedShape = newShape;
+	}
+	
+	public String draw() {
+		System.out.println("    ShapeDecorator");
+		return decoratedShape.draw();
+	}
+	
+}

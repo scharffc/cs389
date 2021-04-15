@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public class Circle {
+
+	@Override
+	public void draw() {
+		System.out.println("Draw Rectangle");
+		
+	}
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

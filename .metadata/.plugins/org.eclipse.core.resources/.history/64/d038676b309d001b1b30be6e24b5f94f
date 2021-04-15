@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public class SingletonClass {
+
+	
+	private static SingletonClass uniqueInstance;
+
+	private SingletonClass(){
+		
+	}
+	
+	public static SinletonClass getInstance() {
+		if (uniqueInstance == null) {
+			return uniqueInstance;
+		}
+	return new SingletonClass();
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

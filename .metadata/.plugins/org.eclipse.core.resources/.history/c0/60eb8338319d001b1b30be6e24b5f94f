@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public class SingletonClass {
+
+	
+	private static SingletonClass uniqueInstance;
+
+	private SingletonClass(){
+		
+	}
+	
+	public static SingletonClass getInstance() {
+		if (uniqueInstance == null) {
+			return uniqueInstance;
+		}
+	return new SingletonClass();
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// NO NO
+		// SingletonClass sc = new SingletonClass();
+		
+		SingletonClass sc = SingletonClass.getInstance();
+
+	}
+
+}

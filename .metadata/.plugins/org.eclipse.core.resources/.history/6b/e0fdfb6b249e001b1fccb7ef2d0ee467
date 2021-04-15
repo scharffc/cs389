@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public class RedShape extends ShapeDecorator {
+
+	public RedShape(Shape newShape) {
+		super(newShape);
+	}
+
+	public String draw() {
+		System.out.println("Red shape");
+		return super.draw()
+		
+	}
+
+	
+	
+}

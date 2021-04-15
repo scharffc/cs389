@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public interface Piazza {
+
+	public static void bake() {
+		
+	}
+
+}

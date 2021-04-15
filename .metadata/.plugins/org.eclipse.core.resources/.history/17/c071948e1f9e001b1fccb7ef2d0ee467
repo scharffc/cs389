@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public interface Shape {
+
+}

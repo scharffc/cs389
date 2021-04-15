@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public class Driver {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Shape circle = new Circle();
+
+		
+	System.out.println(circle.draw());
+	
+		Shape redCircle = new RedShape(new Circle());
+		
+	System.out.println(redCircle.draw());
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+
+/**
+ * @author cscharff
+ *
+ */
+public class PizzaCheese implements Pizza {
+
+	public static bake() {
+		System.out.println("Add cheese");
+	}
+
+}
